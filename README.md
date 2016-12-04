@@ -13,7 +13,7 @@ add a path
 removed the search div <hero-search>
 
 -app.module.ts
-imported @ngmodule, the add component
+imported the add component module
 
 Created anew component her-add.component
 -hero-add.component.ts
