@@ -1,44 +1,32 @@
-# Getting Started
+# Changes made by maumoon
 
-Super simple Angular 2 app with 1 module and 2 routes 
+added the search component as a separate feature
 
-## Get the Code
-```
-git clone https://github.com/johnpapa/angular2-tour-of-heroes.git toh
-cd toh
-npm i
-```
+-app.component.ts
+added a router link
 
-### Just in Time (JiT) Compilation
+-app.routing.module.ts
+import the component
+add a path
 
-Runs the TypeScript compiler and launches the app
+-dashboard.component.html
+removed the search div <hero-search>
 
-```
-npm start
-```
+-app.module.ts
+imported @ngmodule, the add component
 
-### Ahead of Time (AoT) Compilation 
+Created anew component her-add.component
+-hero-add.component.ts
+-hero-add.component.html
+-hero-add.component.css
 
-Runs the Angular AoT compiler, rollup, uglify for an optimized bundle, then launches the app
+Added a footer area
+ 
 
-```
-npm run start-aot
-```
+Added images to
+-Dashboard
+-Players
+-Details
 
-### AoT + gzip 
-
-Runs AoT plus gzips and launches the app 
-
-```
-gulp copy-aot-gzip
-npm run aot
-npm run rollup
-http-server
-```
-
-Notes:
-- Use your favorite server in place of `http-server`
-- This could be scripted, obviously
-- `lite-server` does not launch gzipped files by default.
 
 
