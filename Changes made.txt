@@ -1,0 +1,34 @@
+added the search component as a separate feature
+
+-app.component.ts
+added a router link
+
+-app.routing.module.ts
+import the component
+add a path
+
+-dashboard.component.html
+removed the search div <hero-search>
+
+-app.module.ts
+imported @ngmodule, the add component
+
+Created anew component her-add.component
+-hero-add.component.ts
+-hero-add.component.html
+-hero-add.component.css
+
+Added a footer area 
+
+Added images to
+-Dashboard
+-Players
+-Details
+
+
+
+
+no done
+
+-hero-detail.component - needs to display msg when saved
+-need to upload image

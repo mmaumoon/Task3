@@ -1,0 +1,6 @@
+<h2>Add Players</h2>
+
+<button (click)="addHero()">Add New Player</button>
+<div *ngIf="addingHero">
+  <my-hero-detail (close)="close($event)"></my-hero-detail>
+</div>

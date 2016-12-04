@@ -1,0 +1,14 @@
+<div *ngIf="hero">
+  <h2>{{hero.name}} details!</h2>
+  <div>
+    <div>
+    <img src= "{{hero.pic}}" style="width: 100 px; height: 100px; border-radius: 10px;" />
+    </div>
+    <label>No: </label>{{hero.id}}</div>
+  <div>
+    <label>Name: </label>
+    <input [(ngModel)]="hero.name" placeholder="name" />
+  </div>
+  <button (click)="goBack()">Back</button>
+  <button (click)="save()">Save</button>
+</div>
