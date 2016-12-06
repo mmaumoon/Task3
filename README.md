@@ -1,4 +1,4 @@
-# Changes made by maumoon
+# Changes made by Mohamed Maumoon
 
 added the search component as a separate feature
 
