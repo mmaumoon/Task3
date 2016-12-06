@@ -1,5 +1,5 @@
 # Changes made by Mohamed Maumoon
-Here are the changes that i've made to the 'Tour of heroes" tutorial.
+Here are the changes that I've made to the 'Tour of heroes" tutorial.
 The app is designed to be used for a football team player site.
 
 # Major changes
