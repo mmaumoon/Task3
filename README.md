@@ -27,10 +27,4 @@ Created a new component (hero-add.component) and created these supporting files;
 -hero-add.component.html
 -hero-add.component.css
  
-Added images to;
--Dashboard
--Players
--Details
-
-
-
+Added images to; Dashboard, Players and Details.
